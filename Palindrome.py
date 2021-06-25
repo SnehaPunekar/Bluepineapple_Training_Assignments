@@ -1,3 +1,4 @@
+# Check if string is palindrome or not.
 
 def is_Palindrome(word):
 	rev = word[::-1]
