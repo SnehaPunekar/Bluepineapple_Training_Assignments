@@ -1,3 +1,5 @@
+# Program to perform matrix multiplication.
+
 row1 = int(input("Enter the number of rows in Matrix 1 \n"))
 col1 = int(input("Enter the number of columns in Matrix 1\n"))
 row2 = int(input("Enter the number of rows in Matrix 2\n"))
