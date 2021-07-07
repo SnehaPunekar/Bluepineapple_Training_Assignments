@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Reverse the String</title>
+</head>
+<body>
+	<label>Enter the String to Reverse</label>
+	<input type="text" id="data"><br><br>
+	<button onclick="String_Reverse()">Reverse</button>
+	<script type="text/javascript">
+		function String_Reverse(){
+		var str = document.getElementById("data").value;
+		var revStr = '';
+		for(i=str.length-1;i>=0;i--){
+			revStr += str[i];
+		}
+		document.write(`Original String is - ${str} ; `);
+		document.write(`\nReversed String is - ${revStr}`);
+	}
+	</script>
+</body>
+</html>
